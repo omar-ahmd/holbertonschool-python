@@ -1,11 +1,7 @@
 #!/usr/bin/python3
-def fizzbuzz():
-    for x in range(1, 101):
-        if x % 15 == 0:
-            print('FizzBuzz', end=" ")
-        elif x % 5 == 0:
-            print('Buzz', end=" ")
-        elif x % 3 == 0:
-            print('Fizz', end=" ")
-        else:
-            print(x, end=" ")
+def remove_char_at(str, n):
+    out = ""
+    for x in range(len(str)):
+        if x != n:
+            out += str[x]
+    return out
