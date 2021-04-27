@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-def magic_calculation(a, b, c):
-    if a < b:
-        return c
-    elif c > b:
-        return a + b
-    else:
-        return a * b - c
+for x in range(122, 96, -2):
+    print('{:s}'.format(chr(x)), end=''))
+    print('{:s}'.format(chr(x - 1 - 32)), end='')

@@ -1,11 +1,7 @@
 #!/usr/bin/python3
-def fizzbuzz():
-    for x in range(1, 101):
-        if x % 15 == 0:
-            print('FizzBuzz', end=" ")
-        elif x % 5 == 0:
-            print('Buzz', end=" ")
-        elif x % 3 == 0:
-            print('Fizz', end=" ")
-        else:
-            print(x, end=" ")
+def magic_calculation(a, b, c):
+    if a < b:
+        return c
+    if c > b:
+        return a + b
+    return a * b - c
