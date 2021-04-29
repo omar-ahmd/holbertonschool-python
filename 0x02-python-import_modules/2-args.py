@@ -8,6 +8,10 @@ def main():
     if arg == 1:
         txt = "{:d} arguments.".format(arg - 1)
         print(txt)
+    elif arg == 2:
+        txt = "{:d} arguments.".format(arg - 1)
+        print(txt)
+        print("{:d}: {:s}".format(i, sys.argv[1]))
     else:
         txt = "{:d} arguments:".format(arg - 1)
         print(txt)
