@@ -9,7 +9,7 @@ def main():
     if arg >= 1:
         for i in range(1, arg):
             su += int(sys.argv[i])
-    print('{}'.format(sum))
+    print('{}'.format(su))
 
 
 if __name__ == '__main__':
