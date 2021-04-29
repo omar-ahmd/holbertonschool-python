@@ -11,7 +11,7 @@ def main():
     elif arg == 2:
         txt = "{:d} argument:".format(arg - 1)
         print(txt)
-        print("{:d}: {:s}".format(i, sys.argv[1]))
+        print("{:d}: {:s}".format(1, sys.argv[1]))
     else:
         txt = "{:d} arguments:".format(arg - 1)
         print(txt)
