@@ -74,4 +74,3 @@ class Square:
                 string += "#"
             string += "\n"
         return string[:-1]
-        
