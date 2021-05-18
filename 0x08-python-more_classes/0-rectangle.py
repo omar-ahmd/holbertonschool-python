@@ -6,6 +6,6 @@ This module contains an empty rectangle class
 
 class Rectangle:
     """
-    	empty class
+       empty class
     """
     pass
