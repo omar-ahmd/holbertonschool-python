@@ -8,15 +8,15 @@ Import file
 >>> say_my_name = __import__('3-say_my_name').say_my_name
 
 Testing for a valid input
->>> say_my_name("Fady", "Hanna")
-My name is Fady Hanna
+>>> say_my_name("Omar", "Ahmad")
+My name is Omar Ahmad
 
 Testing for second valid input
->>> say_my_name("Fady", "Hanna")
-My name is Fady Hanna
+>>> say_my_name("Omar", "Ahmad")
+My name is Omar Ahmad
 
 Testing for 3rd valid input
->>> say_my_name("Fady")
+>>> say_my_name("Omar")
 My name is Fady 
 
 Testing for invalid input
@@ -25,7 +25,7 @@ Traceback (most recent call last):
 TypeError: first_name must be a string
 
 Testing for number input
->>> say_my_name("Fady", 12)
+>>> say_my_name("Omar", 12)
 Traceback (most recent call last):
 TypeError: last_name must be a string
 
